@@ -1,0 +1,6 @@
+{
+  "name": "LeadMatrix - Sales Lead Qualification Engine",
+  "description": "Production-grade sales lead qualification engine with explainable ML scoring, rules baseline, human review queue, and drift monitoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

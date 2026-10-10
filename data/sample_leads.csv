@@ -1,0 +1,21 @@
+name,email,company,industry,company_size,budget,urgency,engagement,source
+Claire Redfield,claire@terrasave.org,TerraSave Global,Healthcare,1000+ employees,195000,Immediate (< 1 mo),High (Demo / Webinar),Inbound Demo
+Leon Kennedy,leon@dsoconsulting.com,DSO Defense,Professional Services,51-200 employees,65000,Short-term (1-3 mos),High (Demo / Webinar),Direct Referral
+Jill Valentine,jill@bsaa-ops.org,BSAA Security,Tech/SaaS,201-1000 employees,140000,Immediate (< 1 mo),High (Demo / Webinar),Inbound Demo
+Chris Redfield,chris@silverdagger.mil,Silver Dagger Tech,Manufacturing,201-1000 employees,110000,Short-term (1-3 mos),Medium (3+ Content Downloads),Organic Search
+Ada Wong,ada@syndicatecap.hk,Syndicate Capital,Financial Services,51-200 employees,175000,Immediate (< 1 mo),High (Demo / Webinar),Direct Referral
+Carlos Oliveira,carlos@umbrella-recovery.com,Umbrella Remediation,Healthcare,51-200 employees,48000,Medium-term (3-6 mos),Medium (3+ Content Downloads),Paid Campaign
+Rebecca Chambers,rebecca@st-michael-biochem.edu,St Michael BioLabs,Healthcare,11-50 employees,28000,Short-term (1-3 mos),Medium (3+ Content Downloads),Organic Search
+Barry Burton,barry@sentrysafes.us,Sentry Defense Systems,Manufacturing,11-50 employees,22000,Medium-term (3-6 mos),Low (Newsletter / Single Page),Outbound SDR
+Albert Wesker,wesker@tricell-genomics.za,Tricell Genomics,Healthcare,1000+ employees,450000,Immediate (< 1 mo),High (Demo / Webinar),Inbound Demo
+Sherry Birkin,sherry@federalhealth.gov,Federal Health Alliance,Healthcare,1000+ employees,220000,Short-term (1-3 mos),High (Demo / Webinar),Direct Referral
+Ashley Graham,ashley@massachusetts-ed.edu,Bay State Collegiate,Education,201-1000 employees,38000,Medium-term (3-6 mos),Low (Newsletter / Single Page),Organic Search
+Luis Serra,luis@valdelobos-labs.es,Valdelobos Biotech,Healthcare,1-10 employees,8000,Exploratory (6+ mos),Low (Newsletter / Single Page),Cold List / Event
+William Birkin,wbirkin@golgotha-res.com,G-Pharma Research,Healthcare,51-200 employees,85000,Immediate (< 1 mo),High (Demo / Webinar),Inbound Demo
+Annette Birkin,annette@nest-facilities.org,NEST Cleanroom Tech,Manufacturing,51-200 employees,92000,Short-term (1-3 mos),Medium (3+ Content Downloads),Organic Search
+Marvin Branagh,marvin@midwest-precinct.org,Metro Municipal Services,Professional Services,201-1000 employees,55000,Medium-term (3-6 mos),Low (Newsletter / Single Page),Paid Campaign
+Hunk Reaper,reaper@grim-tactical.com,Grim Tactical Logistics,Manufacturing,11-50 employees,35000,Short-term (1-3 mos),Medium (3+ Content Downloads),Outbound SDR
+Brad Vickers,brad@alpha-flight.aero,Alpha Aero Charters,Other,1-10 employees,6000,Exploratory (6+ mos),Low (Newsletter / Single Page),Cold List / Event
+Helena Harper,helena@us-secret-service.gov,Executive Transport Hub,Professional Services,1000+ employees,160000,Immediate (< 1 mo),High (Demo / Webinar),Inbound Demo
+Jake Muller,jake@idonia-mercenary.eu,Idonia Energy Works,Manufacturing,51-200 employees,70000,Short-term (1-3 mos),Medium (3+ Content Downloads),Paid Campaign
+Piers Nivans,piers@bsaa-northamerica.org,Tactical Communications,Tech/SaaS,51-200 employees,80000,Immediate (< 1 mo),High (Demo / Webinar),Direct Referral

@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #f8fafc;
+    background-color: #020617;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* =========================================================================
+   Multicolor Galaxy Theme — Glassmorphism Cards, Interactive Neon Glow
+   ========================================================================= */
+
+/* Semi-transparent dark glass panels with blur */
+.bg-white {
+  background-color: rgba(7, 13, 28, 0.74) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  color: #f8fafc !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5), 0 0 1px 1px rgba(255, 255, 255, 0.05) !important;
+  transition: box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s ease !important;
+}
+
+/* Subtle Interactive Card Glow Effect on Hover */
+.bg-white:hover {
+  border-color: rgba(56, 189, 248, 0.28) !important;
+  box-shadow: 0 14px 44px -8px rgba(0, 0, 0, 0.7), 0 0 28px -4px rgba(56, 189, 248, 0.16), 0 0 36px -6px rgba(168, 85, 247, 0.14) !important;
+}
+
+/* Secondary nested surfaces (metric cards, headers, form controls) */
+.bg-gray-50,
+.bg-gray-100 {
+  background-color: rgba(14, 21, 39, 0.68) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Form controls and inputs in dark space theme */
+input,
+select,
+textarea {
+  background-color: rgba(10, 16, 34, 0.88) !important;
+  color: #f8fafc !important;
+  border-color: rgba(255, 255, 255, 0.16) !important;
+  transition: all 0.2s ease !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #64748b !important;
+}
+
+select option {
+  background-color: #070d1e !important;
+  color: #f8fafc !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #38bdf8 !important;
+  box-shadow: 0 0 16px rgba(56, 189, 248, 0.3), 0 0 28px rgba(168, 85, 247, 0.15) !important;
+}
+
+/* High-contrast text legibility on dark glass */
+.text-gray-900,
+.text-gray-800 {
+  color: #f8fafc !important;
+}
+
+.text-gray-700,
+.text-gray-600 {
+  color: #cbd5e1 !important;
+}
+
+.text-gray-500,
+.text-gray-400 {
+  color: #94a3b8 !important;
+}
+
+/* Table borders and divider lines */
+.border-gray-200,
+.border-gray-100,
+.border-gray-300,
+.divide-gray-200 > :not([hidden]) ~ :not([hidden]),
+.divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Subtle table row and card hover highlights */
+tr:hover,
+.hover\:bg-gray-50:hover,
+.hover\:bg-gray-100:hover,
+.hover\:bg-gray-50\/80:hover,
+.hover\:bg-gray-50\/90:hover {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Subtle Neon Status Badges */
+.bg-emerald-50,
+.bg-emerald-100 {
+  background-color: rgba(6, 78, 59, 0.45) !important;
+  border-color: rgba(52, 211, 153, 0.35) !important;
+  color: #6ee7b7 !important;
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.12);
+}
+
+.bg-emerald-50\/70,
+.bg-emerald-50\/80 {
+  background-color: rgba(6, 78, 59, 0.4) !important;
+  border-color: rgba(52, 211, 153, 0.3) !important;
+}
+
+.bg-amber-50,
+.bg-amber-100 {
+  background-color: rgba(120, 53, 15, 0.45) !important;
+  border-color: rgba(245, 158, 11, 0.35) !important;
+  color: #fcd34d !important;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.12);
+}
+
+.bg-amber-50\/70,
+.bg-amber-50\/30 {
+  background-color: rgba(120, 53, 15, 0.35) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.bg-blue-50,
+.bg-blue-100 {
+  background-color: rgba(30, 58, 138, 0.45) !important;
+  border-color: rgba(96, 165, 250, 0.35) !important;
+  color: #93c5fd !important;
+  box-shadow: 0 0 10px rgba(96, 165, 250, 0.12);
+}
+
+.bg-red-50 {
+  background-color: rgba(127, 29, 29, 0.45) !important;
+  border-color: rgba(239, 68, 68, 0.35) !important;
+  color: #fca5a5 !important;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.12);
+}
+
+/* Subtle Neon Glow on Action Buttons */
+button.bg-\[\#15803d\] {
+  background-color: #15803d !important;
+  box-shadow: 0 0 16px -2px rgba(16, 185, 129, 0.4), 0 0 26px -6px rgba(56, 189, 248, 0.2);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+button.bg-\[\#15803d\]:hover {
+  background-color: #16a34a !important;
+  box-shadow: 0 0 24px rgba(16, 185, 129, 0.6), 0 0 32px rgba(56, 189, 248, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(3, 7, 18, 0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.4);
+}
